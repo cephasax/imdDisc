@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#pages#login.xhtml" PATH="/pages/login.xhtml"
+  SHAPE="169,475,0,0" model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#pages#relatorio.xhtml"
+  PATH="/pages/relatorio.xhtml" SHAPE="482,489,0,0"
+  model-entity="JSFProcessGroup" persistent="true"/>
+ <PROCESS-ITEM NAME="rules:#pages#escolhaTurmas.xhtml"
+  PATH="/pages/escolhaTurmas.xhtml" SHAPE="689,279,0,0"
+  model-entity="JSFProcessGroup" persistent="true"/>
+</PROCESS>
