@@ -26,6 +26,21 @@
    <value/>
   </managed-property>
  </managed-bean>
+ <managed-bean>
+  <managed-bean-name>pessoaBean</managed-bean-name>
+  <managed-bean-class>br.ufrn.imd.web2.projeto1.PessoaBean</managed-bean-class>
+  <managed-bean-scope>request</managed-bean-scope>
+  <managed-property>
+   <property-name>pessoa</property-name>
+   <property-class>br.ufrn.imd.web2.projeto1.Pessoa</property-class>
+   <value/>
+  </managed-property>
+  <managed-property>
+   <property-name>listaPessoas</property-name>
+   <property-class>java.util.ArrayList</property-class>
+   <value/>
+  </managed-property>
+ </managed-bean>
  <navigation-rule>
   <from-view-id>/pages/login.xhtml</from-view-id>
   <navigation-case>

@@ -11,6 +11,7 @@ import javax.faces.bean.SessionScoped;
 public class MegazordBeanV2 {
 
 	public String[] discName;
+	
 
 	public String[] getdiscName() {
 		return discName;
@@ -37,7 +38,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("MAT0309");
-			disciplina.setNome("ALGEBRA LINEAR PARA COMPUTAÇÃO");
+			disciplina.setNome("ALGEBRA LINEAR PARA COMPUTAï¿½ï¿½O");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -61,13 +62,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0332");
-			disciplina.setNome("ARQUITETURAS AVANÇADAS DE COMPUTADORES");
+			disciplina.setNome("ARQUITETURAS AVANï¿½ADAS DE COMPUTADORES");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0512");
-			disciplina.setNome("AVALIAÇÃO DA INTERAÇÃO HUMANO-COMPUTADOR");
+			disciplina.setNome("AVALIAï¿½ï¿½O DA INTERAï¿½ï¿½O HUMANO-COMPUTADOR");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
@@ -85,13 +86,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0501");
-			disciplina.setNome("BOAS PRÁTICAS DE PROGRAMAÇÃO");
+			disciplina.setNome("BOAS PRï¿½TICAS DE PROGRAMAï¿½ï¿½O");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0024");
-			disciplina.setNome("CÁLCULO DIFERENCIAL E INTEGRAL I");
+			disciplina.setNome("Cï¿½LCULO DIFERENCIAL E INTEGRAL I");
 			disciplina.setCargaHoraria(90);
 			listaDisciplinas.add(disciplina);
 
@@ -103,25 +104,25 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0320");
-			disciplina.setNome("CIRCUITOS ELETRÔNICOS");
+			disciplina.setNome("CIRCUITOS ELETRï¿½NICOS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0011");
-			disciplina.setNome("CIRCUITOS LÓGICOS");
+			disciplina.setNome("CIRCUITOS Lï¿½GICOS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0419");
-			disciplina.setNome("COMPUTAÇÃO EM NUVEM");
+			disciplina.setNome("COMPUTAï¿½ï¿½O EM NUVEM");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0451");
-			disciplina.setNome("COMPUTAÇÃO GRÁFICA I");
+			disciplina.setNome("COMPUTAï¿½ï¿½O GRï¿½FICA I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -133,7 +134,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0524");
-			disciplina.setNome("DESENVOLVIMENTO DE SISTEMAS PARA DISPOSITIVOS MÓVEIS");
+			disciplina.setNome("DESENVOLVIMENTO DE SISTEMAS PARA DISPOSITIVOS Mï¿½VEIS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -163,13 +164,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0509");
-			disciplina.setNome("DESENVOLVIMENTO PARA DISPOSITIVOS MÓVEIS");
+			disciplina.setNome("DESENVOLVIMENTO PARA DISPOSITIVOS Mï¿½VEIS");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0505");
-			disciplina.setNome("DESIGN DA INTERAÇÃO HUMANO-COMPUTADOR");
+			disciplina.setNome("DESIGN DA INTERAï¿½ï¿½O HUMANO-COMPUTADOR");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -193,13 +194,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DAN0024");
-			disciplina.setNome("DIREITOS HUMANOS, DIVERSIDADE CULTURAL E RELAÇÕES ÉTNICO-RACIAIS");
+			disciplina.setNome("DIREITOS HUMANOS, DIVERSIDADE CULTURAL E RELAï¿½ï¿½ES ï¿½TNICO-RACIAIS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0524");
-			disciplina.setNome("EDUCAÇÃO A DISTÂNCIA");
+			disciplina.setNome("EDUCAï¿½ï¿½O A DISTï¿½NCIA");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -223,13 +224,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0029");
-			disciplina.setNome("ESTRUTURA DE DADOS BÁSICAS I");
+			disciplina.setNome("ESTRUTURA DE DADOS Bï¿½SICAS I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0039");
-			disciplina.setNome("ESTRUTURAS DE DADOS BÁSICAS II");
+			disciplina.setNome("ESTRUTURAS DE DADOS Bï¿½SICAS II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -247,61 +248,61 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0405");
-			disciplina.setNome("FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO");
+			disciplina.setNome("FUNDAMENTOS DE SISTEMAS DE INFORMAï¿½ï¿½O");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0028");
-			disciplina.setNome("FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO I");
+			disciplina.setNome("FUNDAMENTOS MATEMï¿½TICOS DA COMPUTAï¿½ï¿½O I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0038");
-			disciplina.setNome("FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO II");
+			disciplina.setNome("FUNDAMENTOS MATEMï¿½TICOS DA COMPUTAï¿½ï¿½O II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0601");
-			disciplina.setNome("FUNDAMENTOS MATEMÁTICOS DA COMPUTAÇÃO III");
+			disciplina.setNome("FUNDAMENTOS MATEMï¿½TICOS DA COMPUTAï¿½ï¿½O III");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0517");
-			disciplina.setNome("FUNDAMENTOS PEDAGÓGICOS PARA A INFORMÁTICA EDUCACIONAL I");
+			disciplina.setNome("FUNDAMENTOS PEDAGï¿½GICOS PARA A INFORMï¿½TICA EDUCACIONAL I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0518");
-			disciplina.setNome("FUNDAMENTOS PEDAGÓGICOS PARA A INFORMÁTICA EDUCACIONAL II");
+			disciplina.setNome("FUNDAMENTOS PEDAGï¿½GICOS PARA A INFORMï¿½TICA EDUCACIONAL II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0517");
-			disciplina.setNome("GERÊNCIA DE CONFIGURAÇÃO E MUDANÇAS");
+			disciplina.setNome("GERï¿½NCIA DE CONFIGURAï¿½ï¿½O E MUDANï¿½AS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0421");
-			disciplina.setNome("GESTÃO DA MUDANÇA ORGANIZACIONAL");
+			disciplina.setNome("GESTï¿½O DA MUDANï¿½A ORGANIZACIONAL");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0415");
-			disciplina.setNome("GESTÃO DE INFRAESTRUTURA DE TI");
+			disciplina.setNome("GESTï¿½O DE INFRAESTRUTURA DE TI");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0417");
-			disciplina.setNome("GESTÃO DE PROJETOS DE SOFTWARE");
+			disciplina.setNome("GESTï¿½O DE PROJETOS DE SOFTWARE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -313,7 +314,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("LET0508");
-			disciplina.setNome("HISTÓRIA E CULTURA AFRO-BRASILEIRA E INDÍGENA");
+			disciplina.setNome("HISTï¿½RIA E CULTURA AFRO-BRASILEIRA E INDï¿½GENA");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -325,13 +326,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0309");
-			disciplina.setNome("INSTRUMENTAÇÃO ELETROELETRÔNICA");
+			disciplina.setNome("INSTRUMENTAï¿½ï¿½O ELETROELETRï¿½NICA");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0511");
-			disciplina.setNome("INTELIGÊNCIA ARTIFICIAL APLICADA À EDUCAÇÃO");
+			disciplina.setNome("INTELIGï¿½NCIA ARTIFICIAL APLICADA ï¿½ EDUCAï¿½ï¿½O");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -343,43 +344,43 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0411");
-			disciplina.setNome("INTRODUÇÃO À GOVERNANÇA E GESTÃO DE TI");
+			disciplina.setNome("INTRODUï¿½ï¿½O ï¿½ GOVERNANï¿½A E GESTï¿½O DE TI");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0041");
-			disciplina.setNome("INTRODUÇÃO A ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES");
+			disciplina.setNome("INTRODUï¿½ï¿½O A ORGANIZAï¿½ï¿½O E ARQUITETURA DE COMPUTADORES");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0325");
-			disciplina.setNome("INTRODUÇÃO A SISTEMAS DE CONTROLE");
+			disciplina.setNome("INTRODUï¿½ï¿½O A SISTEMAS DE CONTROLE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0042");
-			disciplina.setNome("INTRODUÇÃO A SISTEMAS OPERACIONAIS");
+			disciplina.setNome("INTRODUï¿½ï¿½O A SISTEMAS OPERACIONAIS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0412");
-			disciplina.setNome("INTRODUÇÃO AO TESTE DE SOFTWARE");
+			disciplina.setNome("INTRODUï¿½ï¿½O AO TESTE DE SOFTWARE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0012");
-			disciplina.setNome("INTRODUÇÃO ÀS TÉCNICAS DE PROGRAMAÇÃO");
+			disciplina.setNome("INTRODUï¿½ï¿½O ï¿½S Tï¿½CNICAS DE PROGRAMAï¿½ï¿½O");
 			disciplina.setCargaHoraria(90);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0522");
-			disciplina.setNome("JOGOS DIGITAIS COMO FERRAMENTA PEDAGÓGICA");
+			disciplina.setNome("JOGOS DIGITAIS COMO FERRAMENTA PEDAGï¿½GICA");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -391,19 +392,19 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("FPE0087");
-			disciplina.setNome("LÍNGUA BRASILEIRA DE SINAIS");
+			disciplina.setNome("Lï¿½NGUA BRASILEIRA DE SINAIS");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0030");
-			disciplina.setNome("LINGUAGEM DE PROGRAMAÇÃO I");
+			disciplina.setNome("LINGUAGEM DE PROGRAMAï¿½ï¿½O I");
 			disciplina.setCargaHoraria(0);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0040");
-			disciplina.setNome("LINGUAGEM DE PROGRAMAÇÃO II");
+			disciplina.setNome("LINGUAGEM DE PROGRAMAï¿½ï¿½O II");
 			disciplina.setCargaHoraria(0);
 			listaDisciplinas.add(disciplina);
 
@@ -415,19 +416,19 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0606");
-			disciplina.setNome("LINGUAGENS FORMAIS E AUTÔMATOS");
+			disciplina.setNome("LINGUAGENS FORMAIS E AUTï¿½MATOS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0505");
-			disciplina.setNome("LÓGICA APLICADA A ENGENHARIA DE SOFTWARE");
+			disciplina.setNome("Lï¿½GICA APLICADA A ENGENHARIA DE SOFTWARE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0610");
-			disciplina.setNome("LÓGICA COMPUTACIONAL");
+			disciplina.setNome("Lï¿½GICA COMPUTACIONAL");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -439,7 +440,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0515");
-			disciplina.setNome("MANUTENÇÃO DE SOFTWARE");
+			disciplina.setNome("MANUTENï¿½ï¿½O DE SOFTWARE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -463,13 +464,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0550");
-			disciplina.setNome("MÉTODOS EXPERIMENTAIS EM ENGENHARIA DE SOFTWARE");
+			disciplina.setNome("Mï¿½TODOS EXPERIMENTAIS EM ENGENHARIA DE SOFTWARE");
 			disciplina.setCargaHoraria(40);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0516");
-			disciplina.setNome("MÉTODOS FORMAIS DE ENGENHARIA DE SOFTWARE");
+			disciplina.setNome("Mï¿½TODOS FORMAIS DE ENGENHARIA DE SOFTWARE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -481,25 +482,25 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0044");
-			disciplina.setNome("PRÁTICAS DE LEITURA E ESCRITA EM INGLÊS");
+			disciplina.setNome("PRï¿½TICAS DE LEITURA E ESCRITA EM INGLï¿½S");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0017");
-			disciplina.setNome("PRÁTICAS DE LEITURA E ESCRITA EM PORTUGUÊS I");
+			disciplina.setNome("PRï¿½TICAS DE LEITURA E ESCRITA EM PORTUGUï¿½S I");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0027");
-			disciplina.setNome("PRÁTICAS DE LEITURA E ESCRITA EM PORTUGUÊS II");
+			disciplina.setNome("PRï¿½TICAS DE LEITURA E ESCRITA EM PORTUGUï¿½S II");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0018");
-			disciplina.setNome("PRÁTICAS DE LEITURA EM INGLÊS");
+			disciplina.setNome("PRï¿½TICAS DE LEITURA EM INGLï¿½S");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
@@ -529,25 +530,25 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0403");
-			disciplina.setNome("PROGRAMAÇÃO COM BANCO DE DADOS");
+			disciplina.setNome("PROGRAMAï¿½ï¿½O COM BANCO DE DADOS");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0612");
-			disciplina.setNome("PROGRAMAÇÃO CONCORRENTE");
+			disciplina.setNome("PROGRAMAï¿½ï¿½O CONCORRENTE");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0410");
-			disciplina.setNome("PROGRAMAÇÃO CONCORRENTE E DISTRIBUÍDA");
+			disciplina.setNome("PROGRAMAï¿½ï¿½O CONCORRENTE E DISTRIBUï¿½DA");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0502");
-			disciplina.setNome("PROGRAMAÇÃO DISTRIBUÍDA");
+			disciplina.setNome("PROGRAMAï¿½ï¿½O DISTRIBUï¿½DA");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
@@ -571,7 +572,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0605");
-			disciplina.setNome("PROJETO E ANÁLISE DE ALGORITMOS");
+			disciplina.setNome("PROJETO E ANï¿½LISE DE ALGORITMOS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -601,7 +602,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0406");
-			disciplina.setNome("PROTOCOLO E SERVIÇOS DE INTERNET");
+			disciplina.setNome("PROTOCOLO E SERVIï¿½OS DE INTERNET");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
@@ -613,25 +614,25 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0330");
-			disciplina.setNome("REDES DE COMUNICAÇÃO EM SISTEMAS EMBARCADOS");
+			disciplina.setNome("REDES DE COMUNICAï¿½ï¿½O EM SISTEMAS EMBARCADOS");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0504");
-			disciplina.setNome("RELAÇÕES ENTRE COMUNICAÇÃO, MÍDIA E EDUCAÇÃO");
+			disciplina.setNome("RELAï¿½ï¿½ES ENTRE COMUNICAï¿½ï¿½O, Mï¿½DIA E EDUCAï¿½ï¿½O");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0019");
-			disciplina.setNome("RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI");
+			disciplina.setNome("RESOLUï¿½ï¿½O DE PROBLEMAS MATEMï¿½TICOS PARA TI");
 			disciplina.setCargaHoraria(180);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0416");
-			disciplina.setNome("SEGURANÇA DA INFORMAÇÃO");
+			disciplina.setNome("SEGURANï¿½A DA INFORMAï¿½ï¿½O");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -643,25 +644,25 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0414");
-			disciplina.setNome("SISTEMA DE INFORMAÇÃO DISTRIBUÍDO");
+			disciplina.setNome("SISTEMA DE INFORMAï¿½ï¿½O DISTRIBUï¿½DO");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0506");
-			disciplina.setNome("SISTEMAS COLABORATIVOS DE APOIO À APRENDIZAGEM");
+			disciplina.setNome("SISTEMAS COLABORATIVOS DE APOIO ï¿½ APRENDIZAGEM");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0422");
-			disciplina.setNome("SISTEMAS DE INTELIGÊNCIA EMPRESARIAL");
+			disciplina.setNome("SISTEMAS DE INTELIGï¿½NCIA EMPRESARIAL");
 			disciplina.setCargaHoraria(45);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0322");
-			disciplina.setNome("SISTEMAS DIGITAIS RECONFIGURÁVEIS");
+			disciplina.setNome("SISTEMAS DIGITAIS RECONFIGURï¿½VEIS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -673,13 +674,13 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0328");
-			disciplina.setNome("TÉCNICAS DE PROTOTIPAÇÃO E MONTAGEM DE CIRCUITOS E SISTEMAS ELETRÔNICOS");
+			disciplina.setNome("Tï¿½CNICAS DE PROTOTIPAï¿½ï¿½O E MONTAGEM DE CIRCUITOS E SISTEMAS ELETRï¿½NICOS");
 			disciplina.setCargaHoraria(15);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0020");
-			disciplina.setNome("TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE");
+			disciplina.setNome("TECNOLOGIA DA INFORMAï¿½ï¿½O E SOCIEDADE");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
@@ -691,7 +692,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0319");
-			disciplina.setNome("TEORIA DE CIRCUITOS ELÉTRICOS");
+			disciplina.setNome("TEORIA DE CIRCUITOS ELï¿½TRICOS");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
@@ -703,7 +704,7 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0420");
-			disciplina.setNome("TÓPICOS AVANÇADOS EM GOVERNANÇA DE TI");
+			disciplina.setNome("Tï¿½PICOS AVANï¿½ADOS EM GOVERNANï¿½A DE TI");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
@@ -775,151 +776,151 @@ public class MegazordBeanV2 {
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0531");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE I");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0532");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE II");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0533");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE III");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE III");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0534");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE IV");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE IV");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0539");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE IX");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE IX");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0535");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE V");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE V");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0536");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VI");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VI");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0537");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VII");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VII");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0538");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VIII");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VIII");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("DIM0540");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE X");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE X");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0515");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM INFORMÁTICA EDUCACIONAL I");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM INFORMï¿½TICA EDUCACIONAL I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0516");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM INFORMÁTICA EDUCACIONAL II");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM INFORMï¿½TICA EDUCACIONAL II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0100");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO I");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O I");
 			disciplina.setCargaHoraria(90);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0101");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO II");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0102");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO III");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O III");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0103");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO IV");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O IV");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0108");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO IX");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O IX");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0104");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO V");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O V");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0105");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO VI");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O VI");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0106");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO VII");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O VII");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0107");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO VIII");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O VIII");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0109");
-			disciplina.setNome("TÓPICOS ESPECIAIS EM TECNOLOGIA DA INFORMAÇÃO X");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS EM TECNOLOGIA DA INFORMAï¿½ï¿½O X");
 			disciplina.setCargaHoraria(30);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0335");
-			disciplina.setNome("TÓPICOS ESPECIAIS I");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS I");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0336");
-			disciplina.setNome("TÓPICOS ESPECIAIS II");
+			disciplina.setNome("Tï¿½PICOS ESPECIAIS II");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 
 			disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0034");
-			disciplina.setNome("VETORES E GEOMETRIA ANALÍTICA");
+			disciplina.setNome("VETORES E GEOMETRIA ANALï¿½TICA");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
 				
