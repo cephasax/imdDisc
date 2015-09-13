@@ -9,21 +9,20 @@ import javax.faces.bean.SessionScoped;
 @SessionScoped
 public class MegazordBeanV2 {
 
-	public String discName;
-	
-	public String getDiscName() {
-		return discName;
-	}
-
-	public void setDiscName(String discName) {
-		this.discName = discName;
-	}
-
 	public Disciplina disciplina;
 	public Pessoa pessoa;
 	public ArrayList<Disciplina> listaDisciplinas;
 	public ArrayList<Pessoa> listaPessoas;
+	public String[] discName;
 
+	public String[] getdiscName() {
+		return discName;
+	}
+
+	public void setdiscName(String[] discName) {
+		this.discName = discName;
+	}
+	
 	public Disciplina getDisciplina() {
 		return disciplina;
 	}

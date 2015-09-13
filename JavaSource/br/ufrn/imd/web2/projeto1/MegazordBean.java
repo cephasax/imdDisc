@@ -2,6 +2,11 @@ package br.ufrn.imd.web2.projeto1;
 
 import java.util.ArrayList;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+@ManagedBean
+@SessionScoped
 public class MegazordBean {
 
 	public static Disciplina disciplina;
