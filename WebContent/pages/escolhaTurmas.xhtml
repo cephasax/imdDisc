@@ -10,9 +10,15 @@
 <body>
 <f:view>
 <h1>Escolha as turmas</h1>
-<h:selectManyCheckbox value="#{MegazordBean.disciplina}" id="disciplinas">
-	<f:selectItems value="#{MegazordBean.listaDisciplinas}" />
-</h:selectManyCheckbox>
+   	<h:form>
+   		<h:selectManyCheckbox id="disciplinas" value="#{user.favNumber2}" layout="grid" columns="3">
+   			<f:selectItems value="#{user.favNumber2Value}" />
+   		</h:selectManyCheckbox>
+   		<br />
+    
+    	<h:commandButton value="Submit" action="relatorio" />
+		<h:commandButton value="Reset" type="reset" />
+   	</h:form>
 </f:view>
 </body>
 </html>
