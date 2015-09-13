@@ -4,7 +4,7 @@ public class Disciplina{
 	
 	public String nome;
 	public int cargaHoraria;
-	public int codigo;
+	public String codigo;
 	
 	public String getNome() {
 		return nome;
@@ -22,11 +22,11 @@ public class Disciplina{
 		this.cargaHoraria = cargaHoraria;
 	}
 	
-	public int getCodigo() {
+	public String getCodigo() {
 		return codigo;
 	}
 	
-	public void setCodigo(int codigo) {
+	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
 
