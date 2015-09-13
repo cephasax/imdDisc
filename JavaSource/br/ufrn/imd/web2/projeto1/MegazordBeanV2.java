@@ -10,10 +10,6 @@ import javax.faces.bean.SessionScoped;
 @SessionScoped
 public class MegazordBeanV2 {
 
-	public Disciplina disciplina;
-	public Pessoa pessoa;
-	public ArrayList<Disciplina> listaDisciplinas;
-	public ArrayList<Pessoa> listaPessoas;
 	public String[] discName;
 
 	public String[] getdiscName() {
@@ -24,32 +20,16 @@ public class MegazordBeanV2 {
 		this.discName = discName;
 	}
 	
-	public Disciplina getDisciplina() {
-		return disciplina;
-	}
-
-	public void setDisciplina(Disciplina disciplina) {
-		this.disciplina = disciplina;
-	}
-
-	public Pessoa getPessoa() {
-		return pessoa;
-	}
-
-	public void setPessoa(Pessoa pessoa) {
-		this.pessoa = pessoa;
-	}
-
 	public String discNameInString() {
 		return Arrays.toString(discName);
 	}
 	
 	public ArrayList<Disciplina> getListaDisciplinas() {
 					
-		listaDisciplinas =  new ArrayList<Disciplina>();
+		ArrayList<Disciplina> listaDisciplinas =  new ArrayList<Disciplina>();
 		//Disciplinas e listaDisciplina
 			
-			disciplina = new Disciplina();
+			Disciplina disciplina = new Disciplina();
 			disciplina.setCodigo("IMD0510");
 			disciplina.setNome("ACESSIBILIDADE DIGITAL");
 			disciplina.setCargaHoraria(45);
@@ -944,41 +924,5 @@ public class MegazordBeanV2 {
 			listaDisciplinas.add(disciplina);
 				
 		return listaDisciplinas;
-	}
-
-	public void setListaDisciplinas(ArrayList<Disciplina> listaDisciplinas) {
-		this.listaDisciplinas = listaDisciplinas;
-	}
-
-	public ArrayList<Pessoa> getListaPessoas() {
-	
-		//Pessoas e listaPessoa
-		pessoa.setNome("Cephas Alves da Silveira Barreto");
-		pessoa.setMatricula(2013023300);
-		pessoa.setLogin("2013023300");
-		pessoa.setSenha("teste");
-		
-		listaPessoas.add(pessoa);
-		
-		pessoa = new Pessoa();
-		pessoa.setNome("Victor Vilar Rapozo");
-		pessoa.setMatricula(2013022967);
-		pessoa.setLogin("2013022967");
-		pessoa.setSenha("teste");
-		
-		listaPessoas.add(pessoa);
-		
-		pessoa = new Pessoa();
-		pessoa.setNome("Ramon Santos Malaquias");
-		pessoa.setMatricula(2013018258);
-		pessoa.setLogin("2013018258");
-		pessoa.setSenha("teste");
-		listaPessoas.add(pessoa);
-		
-		return listaPessoas;
-	}
-
-	public void setListaPessoas(ArrayList<Pessoa> listaPessoas) {
-		this.listaPessoas = listaPessoas;
 	}
 }
