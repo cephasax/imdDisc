@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PROCESS model-entity="JSFProcess">
  <PROCESS-ITEM NAME="rules:#pages#login.xhtml" PATH="/pages/login.xhtml"
-  SHAPE="48,120,50,25" model-entity="JSFProcessGroup" persistent="true"/>
+  SHAPE="48,120,50,25" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#login.xhtml:0" NAME="item"
+   PATH="/pages/login.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="turmas::#pages#escolhaTurmas.xhtml"
+    NAME="output" PATH="/pages/escolhaTurmas.xhtml"
+    TARGET="rules:#pages#escolhaTurmas.xhtml" TITLE="turmas" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
  <PROCESS-ITEM NAME="rules:#pages#relatorio.xhtml"
-  PATH="/pages/relatorio.xhtml" SHAPE="184,120,50,25"
+  PATH="/pages/relatorio.xhtml" SHAPE="472,192,50,25"
   model-entity="JSFProcessGroup" persistent="true"/>
  <PROCESS-ITEM NAME="rules:#pages#escolhaTurmas.xhtml"
   PATH="/pages/escolhaTurmas.xhtml" SHAPE="352,120,50,25"

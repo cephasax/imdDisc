@@ -57,7 +57,7 @@ public class MegazordBean {
 			listaPessoas.add(pessoa);
 			
 			pessoa = new Pessoa();
-			pessoa.setNome("Victor Vilar Raposo");
+			pessoa.setNome("Victor Vilar Rapozo");
 			pessoa.setMatricula(2013022967);
 			pessoa.setLogin("2013022967");
 			pessoa.setSenha("teste");
@@ -979,9 +979,7 @@ public class MegazordBean {
 			for(int x = 0; x < listaDisciplinas.size(); x++){
 				System.out.println(listaDisciplinas.get(x).getCodigo() + "---" + listaDisciplinas.get(x).getNome());
 				System.out.println("------------------------");
-			}
-			
-			
+			}	
 			
 	}
 	

@@ -2,49 +2,36 @@
 <faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
  <managed-bean>
-  <managed-bean-name>pessoa</managed-bean-name>
-  <managed-bean-class>br.ufrn.imd.web2.projeto1.Pessoa</managed-bean-class>
+  <managed-bean-name>megazordBean</managed-bean-name>
+  <managed-bean-class>br.ufrn.imd.web2.projeto1.MegazordBean</managed-bean-class>
   <managed-bean-scope>session</managed-bean-scope>
   <managed-property>
-   <property-name>login</property-name>
-   <property-class>java.lang.String</property-class>
+   <property-name>disciplina</property-name>
+   <property-class>br.ufrn.imd.web2.projeto1.Disciplina</property-class>
    <value/>
   </managed-property>
   <managed-property>
-   <property-name>senha</property-name>
-   <property-class>java.lang.String</property-class>
+   <property-name>listaDisciplinas</property-name>
+   <property-class>java.util.ArrayList</property-class>
    <value/>
   </managed-property>
   <managed-property>
-   <property-name>nome</property-name>
-   <property-class>java.lang.String</property-class>
+   <property-name>listaPessoas</property-name>
+   <property-class>java.util.ArrayList</property-class>
    <value/>
   </managed-property>
   <managed-property>
-   <property-name>matricula</property-name>
-   <property-class>java.lang.String</property-class>
+   <property-name>pessoa</property-name>
+   <property-class>br.ufrn.imd.web2.projeto1.Pessoa</property-class>
    <value/>
   </managed-property>
  </managed-bean>
- <managed-bean>
-  <managed-bean-name>disciplina</managed-bean-name>
-  <managed-bean-class>br.ufrn.imd.web2.projeto1.Disciplina</managed-bean-class>
-  <managed-bean-scope>session</managed-bean-scope>
-  <managed-property>
-   <property-name>codigo</property-name>
-   <property-class>java.lang.String</property-class>
-   <value/>
-  </managed-property>
-  <managed-property>
-   <property-name>nome</property-name>
-   <property-class>java.lang.String</property-class>
-   <value/>
-  </managed-property>
-  <managed-property>
-   <property-name>cargaHoraria</property-name>
-   <property-class>java.lang.Integer</property-class>
-   <value/>
-  </managed-property>
- </managed-bean>
+ <navigation-rule>
+  <from-view-id>/pages/login.xhtml</from-view-id>
+  <navigation-case>
+   <from-outcome>turmas</from-outcome>
+   <to-view-id>/pages/escolhaTurmas.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
  <application/>
 </faces-config>
