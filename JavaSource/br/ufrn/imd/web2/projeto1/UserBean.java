@@ -33,11 +33,11 @@ public class UserBean{
 	public String[] getFavNumber2Value() {
 		
 		favNumber2 = new String[5];
-		favNumber2[0] = "Number2 - 1";
-		favNumber2[1] = "Number2 - 2";
-		favNumber2[2] = "Number2 - 3";
-		favNumber2[3] = "Number2 - 4";
-		favNumber2[4] = "Number2 - 5";
+		favNumber2[0] = "Materia - 1";
+		favNumber2[1] = "Materia - 2";
+		favNumber2[2] = "Materia - 3";
+		favNumber2[3] = "Materia - 4";
+		favNumber2[4] = "Materia - 5";
 		
 		return favNumber2;
 	}
