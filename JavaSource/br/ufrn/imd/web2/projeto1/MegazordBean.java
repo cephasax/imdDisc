@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class MegazordBean {
 
-	public Disciplina disciplina;
-	public Pessoa pessoa;
-	public ArrayList<Disciplina> listaDisciplinas;
-	public ArrayList<Pessoa> listaPessoas;
+	public static Disciplina disciplina;
+	public static Pessoa pessoa;
+	public static ArrayList<Disciplina> listaDisciplinas;
+	public static ArrayList<Pessoa> listaPessoas;
 
 	public Disciplina getDisciplina() {
 		return disciplina;
@@ -42,7 +42,8 @@ public class MegazordBean {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+			disciplina = new Disciplina();
 			
 	}
 	
