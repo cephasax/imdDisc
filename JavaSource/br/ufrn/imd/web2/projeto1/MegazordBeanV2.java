@@ -1,6 +1,7 @@
 package br.ufrn.imd.web2.projeto1;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
@@ -39,6 +40,10 @@ public class MegazordBeanV2 {
 		this.pessoa = pessoa;
 	}
 
+	public String discNameInString() {
+		return Arrays.toString(discName);
+	}
+	
 	public ArrayList<Disciplina> getListaDisciplinas() {
 					
 		listaDisciplinas =  new ArrayList<Disciplina>();
