@@ -24,7 +24,9 @@
 			<h:outputLabel value="Senha: "/>
 			<h:inputSecret id="senha" value="#{PessoaBean.pessoa.senha}" size="20" />
 			<h:message for="senha" />		
-		</h:panelGrid>
+		</h:panelGrid><!-- 
+		<h:commandButton value="Avancar" action="#{confirmaDadosUsuario}"/> -->
+		
 		<h:commandButton value="Cadastrar" action="#{PessoaBean.cadastrarPessoa}"/>
 	</h:form>
 </f:view>
