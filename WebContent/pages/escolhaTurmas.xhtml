@@ -12,7 +12,7 @@
 <h1>Escolha as turmas</h1>
     	<h:form>
     	
-    	<h:selectManyCheckbox value="#{megazord.discName}" layout="pageDirection">
+    	<h:selectManyCheckbox value="#{megazord.discName}"  layout="pageDirection">
    			<f:selectItems value="#{megazord.listaDisciplinas}" var="n"
    			itemLabel="#{n.nome}" itemValue="#{n.codigo}" />
    		</h:selectManyCheckbox>

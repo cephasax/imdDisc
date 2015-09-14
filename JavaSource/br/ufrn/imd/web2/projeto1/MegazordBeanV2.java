@@ -3,30 +3,18 @@ package br.ufrn.imd.web2.projeto1;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
 
 @ManagedBean(name="megazord")
-@SessionScoped
+@ApplicationScoped
 public class MegazordBeanV2 {
-
-	public String[] discName;
-
-	public String[] getdiscName() {
-		return discName;
-	}
-
-	public void setdiscName(String[] discName) {
-		this.discName = discName;
-	}
 	
-	public String discNameInString() {
-		return Arrays.toString(discName);
-	}
+	ArrayList<Disciplina> listaDisciplinas;
+	private String[] discName;
 	
-	public ArrayList<Disciplina> getListaDisciplinas() {
-					
-		ArrayList<Disciplina> listaDisciplinas =  new ArrayList<Disciplina>();
+	public MegazordBeanV2(){
+		listaDisciplinas = new ArrayList<Disciplina>();
 		//Disciplinas e listaDisciplina
 			
 			Disciplina disciplina = new Disciplina();
@@ -922,6 +910,21 @@ public class MegazordBeanV2 {
 			disciplina.setNome("VETORES E GEOMETRIA ANALÍTICA");
 			disciplina.setCargaHoraria(60);
 			listaDisciplinas.add(disciplina);
+	}
+
+	public String[] getdiscName() {
+		return discName;
+	}
+
+	public void setdiscName(String[] discName) {
+		this.discName = discName;
+	}
+	
+	public String discNameInString() {
+		return Arrays.toString(discName);
+	}
+	
+	public ArrayList<Disciplina> getListaDisciplinas() {
 				
 		return listaDisciplinas;
 	}
