@@ -9,19 +9,10 @@
 </head>
 <body>
 <f:view>
-<h1>Entrar no Sistema</h1>
+<h1>O que voce deseja fazer no sistema?</h1>
 	<h:form>
-		<h:panelGrid columns="2">
-			<h:outputText value="Usuario: ">
-			</h:outputText>
-			<h:inputText id="login">
-			</h:inputText>
-			<h:outputText value="Senha: ">
-			</h:outputText>
-			<h:inputSecret id="password">
-			</h:inputSecret>
-		</h:panelGrid>
-		<h:commandButton value="Entrar" action="escolheAcao"/>
+		<h:commandButton value="Escolher turmas" action="escolhaTurmas"/>
+		<h:commandButton value="Relatorio" action="relatorio"/>
 	</h:form>
 </f:view>
 </body>
