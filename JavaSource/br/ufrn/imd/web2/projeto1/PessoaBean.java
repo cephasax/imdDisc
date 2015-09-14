@@ -41,7 +41,8 @@ public class PessoaBean implements Serializable {
     	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
     	pessoa = new Pessoa();
     }	
-	public void setListaPessoas(java.util.ArrayList listaPessoas) {
+	
+    public void setListaPessoas(java.util.ArrayList listaPessoas) {
 		this.pessoaLista = listaPessoas;
 	}
 }
