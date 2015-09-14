@@ -13,6 +13,6 @@
   PATH="/pages/relatorio.xhtml" SHAPE="472,192,50,25"
   model-entity="JSFProcessGroup" persistent="true"/>
  <PROCESS-ITEM NAME="rules:#pages#escolhaTurmas.xhtml"
-  PATH="/pages/escolhaTurmas.xhtml" SHAPE="352,120,50,25"
+  PATH="/pages/escolhaTurmas.xhtml" SHAPE="352,128,50,25"
   model-entity="JSFProcessGroup" persistent="true"/>
 </PROCESS>
