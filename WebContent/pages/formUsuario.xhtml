@@ -18,31 +18,15 @@
 			<h:outputLabel value="Matricula: "/>
 			<h:inputText id="matricula" value="#{PessoaBean.pessoa.matricula}" size="20"/>
 			<h:message for="matricula" />
+			<h:outputLabel value="Usuario: "/>
+			<h:inputText id="login" value="#{PessoaBean.pessoa.login}" size="20" />
+			<h:message for="login" />
 			<h:outputLabel value="Senha: "/>
 			<h:inputSecret id="senha" value="#{PessoaBean.pessoa.senha}" size="20" />
 			<h:message for="senha" />
-<!-- 						
-			<h:outputLabel value="Usuario: "/>
-			<h:inputText id="login" value="#{PessoaBean.pessoa.login}" size="20" />
-			<h:message for="login" /> -->
-			
-			
-			
-
-<!-- 		<h:outputText value="Matricula: ">
-			</h:outputText>
-			<h:inputSecret id="matricula">
-			</h:inputSecret>
-			<h:outputText value="Usuario: ">
-			</h:outputText>
-			<h:inputText id="login">
-			</h:inputText>
-			<h:outputText value="Senha: ">
-			</h:outputText>
-			<h:inputSecret id="password">
-			</h:inputSecret> -->
+		
 		</h:panelGrid>
-		<h:commandButton value="Cadastrar" action="submit"/>
+		<h:commandButton value="Cadastrar" action="#{PessoaBean.cadastrarPessoa}"/>
 	</h:form>
 </f:view>
 </body>
