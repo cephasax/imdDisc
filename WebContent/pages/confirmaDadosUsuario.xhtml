@@ -16,6 +16,15 @@
     		<li>Senha: #{PessoaBean.pessoa.senha}</li>
      	</ul>
      		<h:commandButton value="Cadastrar" action="#{PessoaBean.cadastrarPessoa}"/>
+     		<input name="botaoConfirma" type="button" value="Confirmar dados" onClick="window.open('confirmaDadosUsuarioFinal.xhtml')"/>  
+   			<input name="botaoCorrigir" type="button" value="Corrigir dados" onClick="Voltar()"/>
+   	
+		<script type="text/javascript">
+			function Voltar()
+			{
+				location.href="formUsuario.xhtml"
+			}
+		</script>
     </h:body>
 
 </html>
