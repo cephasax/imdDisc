@@ -11,25 +11,13 @@
 <f:view>
 <h1>Entrar no Sistema</h1>
 	<h:form>
-<<<<<<< HEAD
-		<h:panelGrid columns="2">
-			<h:outputText value="Usuario: ">
-			</h:outputText>
-			<h:inputText id="login" value="#{PessoaBean.username}">
-			</h:inputText>
-			<h:outputText value="Senha: ">
-			</h:outputText>
-			<h:inputSecret id="password" value="#{PessoaBean.password}">
-			</h:inputSecret>
-=======
 		<h:panelGrid columns="3">
 			<h:outputLabel value="Usuario: "/>
-			<h:inputText id="login" size="20" required="true" requiredMessage = "Campo obrigatorio"/>
+			<h:inputText id="login" size="20" required="false" requiredMessage = "Campo obrigatorio" value="#{PessoaBean.username}"/>
 			<h:message for="login" />
 			<h:outputLabel value="Senha: "/>
-			<h:inputSecret id="senha" size="20" required="true" requiredMessage = "Campo obrigatorio"/>
+			<h:inputSecret id="password" size="20" required="false" requiredMessage = "Campo obrigatorio" value="#{PessoaBean.password}"/>
 			<h:message for="senha" />		
->>>>>>> origin/master
 		</h:panelGrid>
 		<h:commandButton value="Entrar" action="#{PessoaBean.doLogin()}"/>
 		<h:commandButton value="Cadastrar" action="formUsuario"/>
