@@ -35,13 +35,20 @@ public class PessoaBean implements Serializable {
     public void setPessoaLista(List<Pessoa> pessoaLista) {
         this.pessoaLista = pessoaLista;
     }
+
     
-    public void cadastrarPessoa(){
+    public void receberPessoa(){
+    	//this.getPessoaLista().add(pessoa);
+    	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
+    	pessoa = new Pessoa();
+    }
+	
+    public void cadastrarPessoa(){    	
     	this.getPessoaLista().add(pessoa);
     	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
     	pessoa = new Pessoa();
-    }	
-	
+    }
+    
     public void setListaPessoas(java.util.ArrayList listaPessoas) {
 		this.pessoaLista = listaPessoas;
 	}
