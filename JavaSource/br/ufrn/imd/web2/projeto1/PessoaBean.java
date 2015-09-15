@@ -12,6 +12,8 @@ import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 
 import org.apache.commons.collections.CollectionUtils;
+
+import br.ufrn.imd.web2.dominio.Pessoa;
  
 
 @ManagedBean(name="PessoaBean")

@@ -1,4 +1,4 @@
-package br.ufrn.imd.web2.projeto1;
+package br.ufrn.imd.web2.dominio;
 
 public class Disciplina{
 	

@@ -6,6 +6,8 @@ import java.util.Arrays;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 
+import br.ufrn.imd.web2.dominio.Disciplina;
+
 @ManagedBean(name="megazord")
 @ApplicationScoped
 public class MegazordBean{

@@ -10,7 +10,8 @@ import javax.faces.bean.SessionScoped;
 public class UserBean{
  
 	public boolean rememberMe;
-
+	public String[] favNumber4;
+	
 	public boolean isRememberMe() {
 		return rememberMe;
 	}
@@ -18,8 +19,6 @@ public class UserBean{
 	public void setRememberMe(boolean rememberMe) {
 		this.rememberMe = rememberMe;
 	}
-
-	public String[] favNumber4;
 
 	public String[] getFavNumber4() {
 		return favNumber4;

@@ -1,9 +1,10 @@
-package br.ufrn.imd.web2.projeto1;
+package br.ufrn.imd.web2.backup;
 
 import java.util.ArrayList;
-
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import br.ufrn.imd.web2.dominio.Disciplina;
+import br.ufrn.imd.web2.dominio.Pessoa;
 
 @ManagedBean
 @SessionScoped
