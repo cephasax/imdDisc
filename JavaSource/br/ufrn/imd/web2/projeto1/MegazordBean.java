@@ -12,9 +12,36 @@ public class MegazordBean{
 	
 	ArrayList<Disciplina> listaDisciplinas;
 	private String[] discName;
+	ArrayList<Pessoa> listaPessoas;
 	
 	public MegazordBean(){
 		listaDisciplinas = new ArrayList<Disciplina>();
+		listaPessoas = new ArrayList<Pessoa>();
+		
+		Pessoa pessoa = new Pessoa();
+		//Pessoas e listaDisciplina
+		pessoa.setNome("Cephas Alves da Silveira Barreto");
+		pessoa.setMatricula(2013023300);
+		pessoa.setLogin("2013023300");
+		pessoa.setSenha("teste");
+		
+		listaPessoas.add(pessoa);
+		
+		pessoa = new Pessoa();
+		pessoa.setNome("Victor Vilar Raposo");
+		pessoa.setMatricula(2013022967);
+		pessoa.setLogin("2013022967");
+		pessoa.setSenha("teste");
+		
+		listaPessoas.add(pessoa);
+		
+		pessoa = new Pessoa();
+		pessoa.setNome("Ramon Santos Malaquias");
+		pessoa.setMatricula(2013018258);
+		pessoa.setLogin("2013018258");
+		pessoa.setSenha("teste");
+		listaPessoas.add(pessoa);
+		
 		//Disciplinas e listaDisciplina
 			
 		Disciplina disciplina = new Disciplina();
@@ -929,4 +956,6 @@ public class MegazordBean{
 				
 		return listaDisciplinas;
 	}
+	
+	
 }
