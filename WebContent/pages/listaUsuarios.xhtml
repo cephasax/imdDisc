@@ -5,22 +5,17 @@
       xmlns:h="http://java.sun.com/jsf/html"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
-<title>Disciplinas</title>
+
+<title>Usuarios</title>
 </head>
 <body>
 <f:view>
-<h1>Escolha as turmas</h1>
-    	<h:form>
-    	
-    	<h:selectManyCheckbox value="#{megazord.discName}"  layout="pageDirection">
-   			<f:selectItems value="#{megazord.listaDisciplinas}" var="n"
-   			itemLabel="#{n.nome}" itemValue="#{n.codigo}" />
+<h1>Visualize os usuarios</h1>
+    	<h:form>    	
+    	<h:selectManyCheckbox value="#{PessoaBean.discName}"  layout="pageDirection">
+   			<f:selectItems value="#{PessoaBean.pessoaLista}" var="n"
+   			itemLabel="#{n.nome}" itemValue="#{n.nome}" />
    		</h:selectManyCheckbox>
-
-	    <br />
-	    
-    	<h:commandButton value="Submit" action="relatorio" />
-		<h:commandButton value="Reset" type="reset" />
     	</h:form>
 </f:view>
 </body>
