@@ -2,7 +2,7 @@ package br.ufrn.imd.web2.projeto1;
 
 import java.io.Serializable;
 
-public class Pessoa{
+public class Pessoa implements Serializable{
 	
 	public String nome;
 	public long matricula;
