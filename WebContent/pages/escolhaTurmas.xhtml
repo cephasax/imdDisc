@@ -14,7 +14,7 @@
     	
     	<h:selectManyCheckbox value="#{megazord.discName}"  layout="pageDirection">
    			<f:selectItems value="#{megazord.listaDisciplinas}" var="n"
-   			itemLabel="#{n.nome}" itemValue="#{n.codigo}" />
+   			itemLabel="#{n.codigo} - #{n.nome} (#{n.cargaHoraria}h)" itemValue="#{n.codigo}" />
    		</h:selectManyCheckbox>
 
 	    <br />

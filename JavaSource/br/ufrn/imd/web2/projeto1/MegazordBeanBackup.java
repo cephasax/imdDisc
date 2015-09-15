@@ -990,16 +990,13 @@ public class MegazordBeanBackup {
 			
 	}
 
-	
 	public java.lang.String getLogin() {
 		return login;
 	}
-
 	
 	public void setLogin(java.lang.String login) {
 		this.login = login;
 	}
-
 	
 	public java.lang.String getSenha() {
 		return senha;

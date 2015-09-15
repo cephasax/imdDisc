@@ -70,8 +70,7 @@ public class PessoaBean implements Serializable {
     public void setPessoaLista(List<Pessoa> pessoaLista) {
         this.pessoaLista = pessoaLista;
     }
-
-    
+   
     public void receberPessoa(){
     	//this.getPessoaLista().add(pessoa);
     	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
