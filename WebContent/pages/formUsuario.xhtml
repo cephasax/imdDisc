@@ -13,22 +13,24 @@
 	<h:form>
 		<h:panelGrid columns="3">
 			<h:outputLabel value="Nome: " for="nome"/>
-			<h:inputText id="nome" value="#{PessoaBean.pessoa.nome}" size="20" />
+			<h:inputText id="nome" value="#{PessoaBean.pessoa.nome}" size="20" required="true" requiredMessage = "Campo obrigatorio"/>
 			<h:message for="nome" />
 			<h:outputLabel value="Matricula: "/>
-			<h:inputText id="matricula" value="#{PessoaBean.pessoa.matricula}" size="20"/>
+			<h:inputText id="matricula" value="#{PessoaBean.pessoa.matricula}" size="20" required="true" requiredMessage = "Campo obrigatorio"/>
 			<h:message for="matricula" />
 			<h:outputLabel value="Usuario: "/>
-			<h:inputText id="login" value="#{PessoaBean.pessoa.login}" size="20" />
+			<h:inputText id="login" value="#{PessoaBean.pessoa.login}" size="20" required="true" requiredMessage = "Campo obrigatorio"/>
 			<h:message for="login" />
 			<h:outputLabel value="Senha: "/>
-			<h:inputSecret id="senha" value="#{PessoaBean.pessoa.senha}" size="20" />
+			<h:inputSecret id="senha" value="#{PessoaBean.pessoa.senha}" size="20" required="true" requiredMessage = "Campo obrigatorio"/>
 			<h:message for="senha" />		
-		</h:panelGrid>
-		
+		</h:panelGrid>	
 		<h:commandButton value="Avancar" action="confirmaDadosUsuario"/>
 		<h:commandButton value="Cadastrar" action="#{PessoaBean.cadastrarPessoa}"/>
+		<h:commandButton value="Set Pessoa" action="#{PessoaBean.setPessoa(PessoaBean.pessoa)}"/>
 		
+<!-- 		<h:commandButton value="Receber Pessoa" action="{PessoaBean.receberPessoa}"/> -->
+ 		
 		
 	</h:form>
 </f:view>
