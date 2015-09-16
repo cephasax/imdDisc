@@ -31,29 +31,29 @@ public class PessoaBean implements Serializable {
     	
     	pessoaLista = new ArrayList<Pessoa>();
 		
-		Pessoa pessoa = new Pessoa();
+		Pessoa pessoat = new Pessoa();
 		//Pessoas e listaDisciplina
-		pessoa.setNome("Cephas Alves da Silveira Barreto");
-		pessoa.setMatricula(2013023300);
-		pessoa.setLogin("2013023300");
-		pessoa.setSenha("teste");
+		pessoat.setNome("Cephas Alves da Silveira Barreto");
+		pessoat.setMatricula(2013023300);
+		pessoat.setLogin("2013023300");
+		pessoat.setSenha("teste");
 		
-		pessoaLista.add(pessoa);
+		pessoaLista.add(pessoat);
 		
-		pessoa = new Pessoa();
-		pessoa.setNome("Victor Vilar Raposo");
-		pessoa.setMatricula(2013022967);
-		pessoa.setLogin("2013022967");
-		pessoa.setSenha("teste");
+		pessoat = new Pessoa();
+		pessoat.setNome("Victor Vilar Raposo");
+		pessoat.setMatricula(2013022967);
+		pessoat.setLogin("2013022967");
+		pessoat.setSenha("teste");
 		
-		pessoaLista.add(pessoa);
+		pessoaLista.add(pessoat);
 		
-		pessoa = new Pessoa();
-		pessoa.setNome("Ramon Santos Malaquias");
-		pessoa.setMatricula(2013018258);
-		pessoa.setLogin("2013018258");
-		pessoa.setSenha("teste");
-		pessoaLista.add(pessoa);
+		pessoat = new Pessoa();
+		pessoat.setNome("Ramon Santos Malaquias");
+		pessoat.setMatricula(2013018258);
+		pessoat.setLogin("2013018258");
+		pessoat.setSenha("teste");
+		pessoaLista.add(pessoat);
     }
  
     /**Getters e Setters */
@@ -79,10 +79,15 @@ public class PessoaBean implements Serializable {
     	pessoa = new Pessoa();
     }
 	
-    public void cadastrarPessoa(){    	
+    public void cadastrarPessoa(){
+    	System.out.println("-----------------");
+    	System.out.println(pessoa.getNome());
+    	System.out.println(pessoa.getMatricula());
+    	System.out.println(pessoa.getLogin());
+    	
     	this.getPessoaLista().add(pessoa);
     	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
-    	pessoa = new Pessoa();
+    	//pessoa = new Pessoa();
     }
     
     public void setListaPessoas(java.util.ArrayList listaPessoas) {
