@@ -20,7 +20,7 @@ import br.ufrn.imd.web2.dominio.Pessoa;
 @ApplicationScoped
 public class PessoaBean implements Serializable {
  
-    private Pessoa pessoa = new Pessoa();
+	private Pessoa pessoa = new Pessoa();
     private List<Pessoa> pessoaLista = new ArrayList<Pessoa>();
     private String username;
 	private String password;
@@ -31,29 +31,29 @@ public class PessoaBean implements Serializable {
     	
     	pessoaLista = new ArrayList<Pessoa>();
 		
-		Pessoa pessoat = new Pessoa();
+		pessoa = new Pessoa();
 		//Pessoas e listaDisciplina
-		pessoat.setNome("Cephas Alves da Silveira Barreto");
-		pessoat.setMatricula(2013023300);
-		pessoat.setLogin("2013023300");
-		pessoat.setSenha("teste");
+		pessoa.setNome("Cephas Alves da Silveira Barreto");
+		pessoa.setMatricula(2013023300);
+		pessoa.setLogin("2013023300");
+		pessoa.setSenha("teste");
 		
-		pessoaLista.add(pessoat);
+		pessoaLista.add(pessoa);
 		
-		pessoat = new Pessoa();
-		pessoat.setNome("Victor Vilar Raposo");
-		pessoat.setMatricula(2013022967);
-		pessoat.setLogin("2013022967");
-		pessoat.setSenha("teste");
+		pessoa = new Pessoa();
+		pessoa.setNome("Victor Vilar Raposo");
+		pessoa.setMatricula(2013022967);
+		pessoa.setLogin("2013022967");
+		pessoa.setSenha("teste");
 		
-		pessoaLista.add(pessoat);
+		pessoaLista.add(pessoa);
 		
-		pessoat = new Pessoa();
-		pessoat.setNome("Ramon Santos Malaquias");
-		pessoat.setMatricula(2013018258);
-		pessoat.setLogin("2013018258");
-		pessoat.setSenha("teste");
-		pessoaLista.add(pessoat);
+		pessoa = new Pessoa();
+		pessoa.setNome("Ramon Santos Malaquias");
+		pessoa.setMatricula(2013018258);
+		pessoa.setLogin("2013018258");
+		pessoa.setSenha("teste");
+		pessoaLista.add(pessoa);
     }
  
     /**Getters e Setters */

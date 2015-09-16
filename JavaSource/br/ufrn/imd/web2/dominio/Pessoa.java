@@ -1,13 +1,15 @@
 package br.ufrn.imd.web2.dominio;
 
-import java.io.Serializable;
-
-public class Pessoa implements Serializable{
+public class Pessoa {
 	
-	public String nome;
-	public long matricula;
-	public String login;
-	public String senha;
+	private String nome;
+	private long matricula;
+	private String login;
+	private String senha;
+	
+	public Pessoa(){
+		
+	}
 	
 	public String getNome() {
 		return nome;

@@ -1,11 +1,14 @@
 package br.ufrn.imd.web2.dominio;
 
-public class Disciplina{
+public class Disciplina {
 	
-	public String nome;
-	public int cargaHoraria;
-	public String codigo;
+	private String nome;
+	private int cargaHoraria;
+	private String codigo;
 	
+	public Disciplina(){
+		
+	}
 	public String getNome() {
 		return nome;
 	}

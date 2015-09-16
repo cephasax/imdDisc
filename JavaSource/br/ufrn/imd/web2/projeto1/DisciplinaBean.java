@@ -1,5 +1,6 @@
 package br.ufrn.imd.web2.projeto1;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -8,14 +9,14 @@ import javax.faces.bean.ManagedBean;
 
 import br.ufrn.imd.web2.dominio.Disciplina;
 
-@ManagedBean(name="megazord")
+@ManagedBean(name="DisciplinaBean")
 @ApplicationScoped
-public class MegazordBean{
+public class DisciplinaBean implements Serializable {
 	
-	ArrayList<Disciplina> listaDisciplinas;
+	private ArrayList<Disciplina> listaDisciplinas;
 	private String[] discName;
 	
-	public MegazordBean(){
+	public DisciplinaBean(){
 		listaDisciplinas = new ArrayList<Disciplina>();
 				
 		//Disciplinas e listaDisciplina
