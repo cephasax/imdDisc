@@ -12,16 +12,13 @@
 	<ol>
    		<li>Materias selecionadas por voce: #{DisciplinaBean.discNameInString()}</li>
    	</ol>
+	<h:form>
+	
+ 	<h:commandButton value="Confirmar materias" action="confirmaTurmasFinal" />
+	<h:commandButton value="Corrigir" action="escolhaTurmas" />
+	</h:form>
 </f:view>
 
-   	<input name="botaoConfirma" type="button" value="Confirmar materias" onClick="window.open('confirmaTurmasFinal.xhtml')"/>  
-   	<input name="botaoCorrigir" type="button" value="Corrigir" onClick="Voltar()"/>
-   	
-<script type="text/javascript">
-	function Voltar()
-	{
-		location.href=" escolhaTurmas.xhtml"
-	}
-</script>
+
 </body>
 </html>

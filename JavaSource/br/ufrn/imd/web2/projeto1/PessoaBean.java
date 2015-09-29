@@ -79,7 +79,7 @@ public class PessoaBean implements Serializable {
     	pessoa = new Pessoa();
     }
 	
-    public void cadastrarPessoa(){
+    public String cadastrarPessoa(){
     	System.out.println("-----------------");
     	System.out.println(pessoa.getNome());
     	System.out.println(pessoa.getMatricula());
@@ -88,6 +88,7 @@ public class PessoaBean implements Serializable {
     	this.getPessoaLista().add(pessoa);
     	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
     	//pessoa = new Pessoa();
+    	return "login";
     }
     
     public void setListaPessoas(java.util.ArrayList listaPessoas) {
@@ -111,7 +112,7 @@ public class PessoaBean implements Serializable {
 	}
 
 	public String doLogin() {
-		String[] users = {"2013023300:teste","2013022967:teste","2013018258:teste"};
+		String[] users = {"2013022967:teste"};
     	for (String user: users) {
     	String dbUsername = user.split(":")[0];
     	String dbPassword = user.split(":")[1];
