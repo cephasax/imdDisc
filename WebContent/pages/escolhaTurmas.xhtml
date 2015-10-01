@@ -1,28 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:h="http://java.sun.com/jsf/html"> 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Disciplinas</title>
 </head>
 <body>
-<f:view>
-<h1>Escolha as turmas</h1>
-    	<h:form>
-    	
-    	<h:selectManyCheckbox value="#{DisciplinaBean.discName}"  layout="pageDirection">
-   			<f:selectItems value="#{DisciplinaBean.listaDisciplinas}" var="n"
-   			itemLabel="#{n.codigo} - #{n.nome} (#{n.cargaHoraria}h)" itemValue="#{n.codigo}" />
-   		</h:selectManyCheckbox>
+	<f:view>
+		<h1>Escolha as turmas</h1>
+		<h:form>
 
-	    <br />
-	    
-    	<h:commandButton value="Avancar" action="confirmaTurmas" />
-		<h:commandButton value="Limpar escolhas" type="reset" />
-    	
-    	</h:form>
-</f:view>
+			<h:selectManyCheckbox value="#{DisciplinaBean.discName}"
+				layout="pageDirection">
+				<f:selectItems value="#{DisciplinaBean.listaDisciplinas}" var="n"
+					itemLabel="#{n.codigo} - #{n.nome} (#{n.cargaHoraria}h)"
+					itemValue="#{n.codigo}" />
+			</h:selectManyCheckbox>
+
+			<br />
+
+			<h:commandButton value="Avancar" action="confirmaTurmas" />
+			<h:commandButton value="Limpar escolhas" type="reset" />
+
+		</h:form>
+	</f:view>
 </body>
 </html>

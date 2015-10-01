@@ -9,18 +9,18 @@ import javax.faces.bean.ManagedBean;
 
 import br.ufrn.imd.web2.dominio.Disciplina;
 
-@ManagedBean(name="DisciplinaBean")
+@ManagedBean(name = "DisciplinaBean")
 @ApplicationScoped
 public class DisciplinaBean implements Serializable {
-	
+
 	private ArrayList<Disciplina> listaDisciplinas;
 	private String[] discName;
-	
-	public DisciplinaBean(){
+
+	public DisciplinaBean() {
 		listaDisciplinas = new ArrayList<Disciplina>();
-				
-		//Disciplinas e listaDisciplina
-			
+
+		// Disciplinas e listaDisciplina
+
 		Disciplina disciplina = new Disciplina();
 		disciplina.setCodigo("IMD0510");
 		disciplina.setNome("ACESSIBILIDADE DIGITAL");
@@ -924,14 +924,14 @@ public class DisciplinaBean implements Serializable {
 	public void setdiscName(String[] discName) {
 		this.discName = discName;
 	}
-	
+
 	public String discNameInString() {
 		return Arrays.toString(discName);
 	}
-	
+
 	public ArrayList<Disciplina> getListaDisciplinas() {
-				
+
 		return listaDisciplinas;
 	}
-	
+
 }

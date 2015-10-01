@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"   
-      xmlns:h="http://java.sun.com/jsf/html"
-      >
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html">
 
-    <h:body>
-    	
-    	<h1>Confirmação do cadastro</h1>
-    	
-    	<ul>
-    		<li>Nome: #{PessoaBean.pessoa.nome}</li>
-    		<li>Matricula: #{PessoaBean.pessoa.matricula}</li>
-    		<li>Login: #{PessoaBean.pessoa.login}</li>
-    		<li>Senha: #{PessoaBean.pessoa.senha}</li>
-     	</ul>
-     	<h:form>
-     		<h:commandButton value="Cadastrar" action="#{PessoaBean.cadastrarPessoa}"/>
-     		<h:commandButton value="Corrigir dados" action="formUsuario"/>
-   		</h:form>
-    </h:body>
+<h:body>
+
+	<h1>Confirmação do cadastro</h1>
+
+	<ul>
+		<li>Nome: #{PessoaBean.pessoa.nome}</li>
+		<li>Matricula: #{PessoaBean.pessoa.matricula}</li>
+		<li>Login: #{PessoaBean.pessoa.login}</li>
+		<li>Senha: #{PessoaBean.pessoa.senha}</li>
+	</ul>
+	<h:form>
+		<h:commandButton value="Cadastrar"
+			action="#{PessoaBean.cadastrarPessoa}" />
+		<h:commandButton value="Corrigir dados" action="formUsuario" />
+	</h:form>
+</h:body>
 </html>

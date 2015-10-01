@@ -1,22 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:h="http://java.sun.com/jsf/html"> 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
 <title>Usuarios</title>
 </head>
 <body>
-<f:view>
-<h1>Visualize os usuarios</h1>
-    	<h:form>    	
-    	<h:selectManyCheckbox value="#{PessoaBean.discName}"  layout="pageDirection">
-   			<f:selectItems value="#{PessoaBean.pessoaLista}" var="n"
-   			itemLabel="#{n.nome}" itemValue="#{n.nome}" />
-   		</h:selectManyCheckbox>
-    	</h:form>
-</f:view>
+	<f:view>
+		<h1>Visualize os usuarios</h1>
+		<h:form>
+			<h:selectManyCheckbox value="#{PessoaBean.discName}"
+				layout="pageDirection">
+				<f:selectItems value="#{PessoaBean.pessoaLista}" var="n"
+					itemLabel="#{n.nome}" itemValue="#{n.nome}" />
+			</h:selectManyCheckbox>
+		</h:form>
+	</f:view>
 </body>
 </html>

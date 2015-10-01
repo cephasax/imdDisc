@@ -2,37 +2,12 @@
 <faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
  <managed-bean>
-  <managed-bean-name>megazordBean</managed-bean-name>
-  <managed-bean-class>br.ufrn.imd.web2.projeto1.MegazordBean</managed-bean-class>
-  <managed-bean-scope>session</managed-bean-scope>
-  <managed-property>
-   <property-name>disciplina</property-name>
-   <property-class>br.ufrn.imd.web2.projeto1.Disciplina</property-class>
-   <value/>
-  </managed-property>
-  <managed-property>
-   <property-name>listaDisciplinas</property-name>
-   <property-class>java.util.ArrayList</property-class>
-   <value/>
-  </managed-property>
-  <managed-property>
-   <property-name>listaPessoas</property-name>
-   <property-class>java.util.ArrayList</property-class>
-   <value/>
-  </managed-property>
-  <managed-property>
-   <property-name>pessoa</property-name>
-   <property-class>br.ufrn.imd.web2.projeto1.Pessoa</property-class>
-   <value/>
-  </managed-property>
- </managed-bean>
- <managed-bean>
   <managed-bean-name>pessoaBean</managed-bean-name>
   <managed-bean-class>br.ufrn.imd.web2.projeto1.PessoaBean</managed-bean-class>
   <managed-bean-scope>session</managed-bean-scope>
   <managed-property>
    <property-name>pessoa</property-name>
-   <property-class>br.ufrn.imd.web2.projeto1.Pessoa</property-class>
+   <property-class>br.ufrn.imd.web2.dominio.Pessoa</property-class>
    <value/>
   </managed-property>
   <managed-property>
@@ -43,6 +18,16 @@
   <managed-property>
    <property-name>pessoaLista</property-name>
    <property-class>java.util.List</property-class>
+   <value/>
+  </managed-property>
+ </managed-bean>
+ <managed-bean>
+  <managed-bean-name>disciplinaBean</managed-bean-name>
+  <managed-bean-class>br.ufrn.imd.web2.projeto1.DisciplinaBean</managed-bean-class>
+  <managed-bean-scope>session</managed-bean-scope>
+  <managed-property>
+   <property-name>listaDisciplinas</property-name>
+   <property-class>java.util.ArrayList</property-class>
    <value/>
   </managed-property>
  </managed-bean>

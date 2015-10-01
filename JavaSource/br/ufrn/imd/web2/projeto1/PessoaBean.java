@@ -14,84 +14,83 @@ import javax.faces.context.FacesContext;
 import org.apache.commons.collections.CollectionUtils;
 
 import br.ufrn.imd.web2.dominio.Pessoa;
- 
 
-@ManagedBean(name="PessoaBean")
+@ManagedBean(name = "PessoaBean")
 @ApplicationScoped
 public class PessoaBean implements Serializable {
- 
+
 	private Pessoa pessoa = new Pessoa();
-    private List<Pessoa> pessoaLista = new ArrayList<Pessoa>();
-    private String username;
+	private List<Pessoa> pessoaLista = new ArrayList<Pessoa>();
+	private String username;
 	private String password;
 	private String[] discName;
 
-    /** Creates a new instance of PessoaBean */
-    public PessoaBean() {
-    	
-    	pessoaLista = new ArrayList<Pessoa>();
-		
+	/** Creates a new instance of PessoaBean */
+	public PessoaBean() {
+
+		pessoaLista = new ArrayList<Pessoa>();
+
 		pessoa = new Pessoa();
-		//Pessoas e listaDisciplina
+		// Pessoas e listaDisciplina
 		pessoa.setNome("Cephas Alves da Silveira Barreto");
 		pessoa.setMatricula(2013023300);
 		pessoa.setLogin("2013023300");
 		pessoa.setSenha("teste");
-		
+
 		pessoaLista.add(pessoa);
-		
+
 		pessoa = new Pessoa();
 		pessoa.setNome("Victor Vilar Raposo");
 		pessoa.setMatricula(2013022967);
 		pessoa.setLogin("2013022967");
 		pessoa.setSenha("teste");
-		
+
 		pessoaLista.add(pessoa);
-		
+
 		pessoa = new Pessoa();
 		pessoa.setNome("Ramon Santos Malaquias");
 		pessoa.setMatricula(2013018258);
 		pessoa.setLogin("2013018258");
 		pessoa.setSenha("teste");
 		pessoaLista.add(pessoa);
-    }
- 
-    /**Getters e Setters */
-    public Pessoa getPessoa() {
-        return pessoa;
-    }
- 
-    public void setPessoa(Pessoa pessoa) {
-        this.pessoa = pessoa;
-    }
- 
-    public List<Pessoa> getPessoaLista() {
-        return pessoaLista;
-    }
- 
-    public void setPessoaLista(List<Pessoa> pessoaLista) {
-        this.pessoaLista = pessoaLista;
-    }
-   
-    public void receberPessoa(){
-    	//this.getPessoaLista().add(pessoa);
-    	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
-    	pessoa = new Pessoa();
-    }
-	
-    public String cadastrarPessoa(){
-    	System.out.println("-----------------");
-    	System.out.println(pessoa.getNome());
-    	System.out.println(pessoa.getMatricula());
-    	System.out.println(pessoa.getLogin());
-    	
-    	this.getPessoaLista().add(pessoa);
-    	System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
-    	//pessoa = new Pessoa();
-    	return "login";
-    }
-    
-    public void setListaPessoas(java.util.ArrayList listaPessoas) {
+	}
+
+	/** Getters e Setters */
+	public Pessoa getPessoa() {
+		return pessoa;
+	}
+
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
+	}
+
+	public List<Pessoa> getPessoaLista() {
+		return pessoaLista;
+	}
+
+	public void setPessoaLista(List<Pessoa> pessoaLista) {
+		this.pessoaLista = pessoaLista;
+	}
+
+	public void receberPessoa() {
+		// this.getPessoaLista().add(pessoa);
+		System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
+		pessoa = new Pessoa();
+	}
+
+	public String cadastrarPessoa() {
+		System.out.println("-----------------");
+		System.out.println(pessoa.getNome());
+		System.out.println(pessoa.getMatricula());
+		System.out.println(pessoa.getLogin());
+
+		this.getPessoaLista().add(pessoa);
+		System.out.println("Pessoa " + pessoa.getNome() + " cadastrada!");
+		// pessoa = new Pessoa();
+		return "login";
+	}
+
+	public void setListaPessoas(java.util.ArrayList listaPessoas) {
 		this.pessoaLista = listaPessoas;
 	}
 
@@ -112,23 +111,23 @@ public class PessoaBean implements Serializable {
 	}
 
 	public String doLogin() {
-		String[] users = {"2013022967:teste"};
-    	for (String user: users) {
-    	String dbUsername = user.split(":")[0];
-    	String dbPassword = user.split(":")[1];
-    	
-    		// Successful login
-	    	if (dbUsername.equals(username) && dbPassword.equals(password)) {
-	    		return "escolheAcao";
-	    	}
-    	}
-    	
-    	// Set login ERROR
-    	FacesMessage msg = new FacesMessage("Login error!", "ERROR MSG");
-    	msg.setSeverity(FacesMessage.SEVERITY_ERROR);
-    	FacesContext.getCurrentInstance().addMessage(null, msg);
-    	return "login";
-    	
+		String[] users = { "2013023300:teste", "2013022967:teste", "2013018258:teste" };
+		for (String user : users) {
+			String dbUsername = user.split(":")[0];
+			String dbPassword = user.split(":")[1];
+
+			// Successful login
+			if (dbUsername.equals(username) && dbPassword.equals(password)) {
+				return "escolheAcao";
+			}
+		}
+
+		// Set login ERROR
+		FacesMessage msg = new FacesMessage("Login error!", "ERROR MSG");
+		msg.setSeverity(FacesMessage.SEVERITY_ERROR);
+		FacesContext.getCurrentInstance().addMessage(null, msg);
+		return "loginError";
+
 	}
 
 	public String[] getDiscName() {
@@ -138,6 +137,5 @@ public class PessoaBean implements Serializable {
 	public void setDiscName(String[] discName) {
 		this.discName = discName;
 	}
-	
-	
+
 }
